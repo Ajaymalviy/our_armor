@@ -29,6 +29,7 @@ while input_video.isOpened():
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
+
 # Release the input video and output video objects
 input_video.release()
 output_video.release()
